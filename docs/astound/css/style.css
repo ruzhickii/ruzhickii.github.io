@@ -1,0 +1,1430 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,700");
+/*! sanitize.css v6.0.0 | CC0 License | github.com/csstools/sanitize.css */
+/* Document
+ * ========================================================================== */
+/**
+ * 1. Remove repeating backgrounds in all browsers (opinionated).
+ * 2. Add border box sizing in all browsers (opinionated).
+ */
+*,
+::before,
+::after {
+  background-repeat: no-repeat;
+  /* 1 */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 2 */ }
+
+/**
+ * 1. Add text decoration inheritance in all browsers (opinionated).
+ * 2. Add vertical alignment inheritance in all browsers (opinionated).
+ */
+::before,
+::after {
+  text-decoration: inherit;
+  /* 1 */
+  vertical-align: inherit;
+  /* 2 */ }
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Add the default cursor in all browsers (opinionated).
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ * 4. Breaks words to prevent prevent overflow in all browsers (opinionated).
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  cursor: default;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */
+  word-break: break-word;
+  /* 4 */ }
+
+/* Sections
+ * ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+ * ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * Add the correct display in IE.
+ */
+main {
+  display: block; }
+
+/**
+ * Remove the list style on navigation lists in all browsers (opinionated).
+ */
+nav ol,
+nav ul {
+  list-style: none; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+ * ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Add the correct text decoration in Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/*
+ * Remove the text shadow on text selections in Firefox 61- (opinionated).
+ * 1. Restore the coloring undone by defining the text shadow
+ *    in all browsers (opinionated).
+ */
+::-moz-selection {
+  background-color: #b3d4fc;
+  /* 1 */
+  color: #000;
+  /* 1 */
+  text-shadow: none; }
+
+::selection {
+  background-color: #b3d4fc;
+  /* 1 */
+  color: #000;
+  /* 1 */
+  text-shadow: none; }
+
+/* Embedded content
+ * ========================================================================== */
+/*
+ * Change the alignment on media elements in all browers (opinionated).
+ */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle; }
+
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+video {
+  display: inline-block; }
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none; }
+
+/**
+ * Change the fill color to match the text color in all browsers (opinionated).
+ */
+svg {
+  fill: currentColor; }
+
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Tabular data
+ * ========================================================================== */
+/**
+ * Collapse border spacing in all browsers (opinionated).
+ */
+table {
+  border-collapse: collapse; }
+
+/* Forms
+ * ========================================================================== */
+/**
+ * Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0; }
+
+/**
+ * Inherit styling in all browsers (opinionated).
+ */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
+/**
+ * 1. Show the overflow in IE.
+ * 2. Remove the inheritance of text transform in Edge, Firefox, and IE.
+ */
+button {
+  overflow: visible;
+  /* 1 */
+  text-transform: none;
+  /* 2 */ }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Restore the focus styles unset by the previous rule in Firefox.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * Show the overflow in Edge and IE.
+ */
+input {
+  overflow: visible; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * 1. Add the correct display in Edge and IE.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Remove the inheritance of text transform in Firefox.
+ */
+select {
+  text-transform: none; }
+
+/**
+ * 1. Remove the default vertical scrollbar in IE.
+ * 2. Change the resize direction on textareas in all browsers (opinionated).
+ */
+textarea {
+  overflow: auto;
+  /* 1 */
+  resize: vertical;
+  /* 2 */ }
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+ * ========================================================================== */
+/*
+ * Add the correct display in Edge and IE.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct styles in Edge, IE, and Safari.
+ */
+dialog {
+  background-color: white;
+  border: solid;
+  color: black;
+  display: block;
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
+  height: fit-content;
+  left: 0;
+  margin: auto;
+  padding: 1em;
+  position: absolute;
+  right: 0;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content; }
+
+dialog:not([open]) {
+  display: none; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Scripting
+ * ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+canvas {
+  display: inline-block; }
+
+/**
+ * Add the correct display in IE.
+ */
+template {
+  display: none; }
+
+/* User interaction
+ * ========================================================================== */
+/*
+ * 1. Remove the tapping delay on clickable elements in all browsers (opinionated).
+ * 2. Remove the tapping delay in IE 10.
+ */
+a,
+area,
+button,
+input,
+label,
+select,
+summary,
+textarea,
+[tabindex] {
+  -ms-touch-action: manipulation;
+  /* 1 */
+  touch-action: manipulation;
+  /* 2 */ }
+
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] {
+  display: none; }
+
+/* Accessibility
+ * ========================================================================== */
+/**
+ * Change the cursor on busy elements in all browsers (opinionated).
+ */
+[aria-busy="true"] {
+  cursor: progress; }
+
+/*
+ * Change the cursor on control elements in all browsers (opinionated).
+ */
+[aria-controls] {
+  cursor: pointer; }
+
+/*
+ * Change the cursor on disabled, not-editable, or otherwise
+ * inoperable elements in all browsers (opinionated).
+ */
+[aria-disabled],
+[disabled] {
+  cursor: disabled; }
+
+/*
+ * Change the display on visually hidden accessible elements
+ * in all browsers (opinionated).
+ */
+[aria-hidden="false"][hidden]:not(:focus) {
+  clip: rect(0, 0, 0, 0);
+  display: inherit;
+  position: absolute; }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family: "Open Sans", sans-serif; }
+
+.container {
+  max-width: 835px;
+  margin: 0 auto; }
+
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+  .wrapper-card {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .title-card-mobile {
+    display: block;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 284px; }
+  .wrapper-img {
+    width: 100%;
+    max-width: 398px;
+    margin: 0 auto; }
+    .wrapper-img__img {
+      width: 100%; }
+    .wrapper-img .socialBlock-tablet {
+      display: none; }
+  .wrapper-info {
+    width: 380px;
+    position: relative;
+    margin: 0 auto; }
+    .wrapper-info__titleCard {
+      display: none; }
+    .wrapper-info__itemNumber {
+      opacity: 0.7;
+      color: #2c303d;
+      font-family: "Open Sans", sans-serif;
+      font-size: 0.75rem;
+      font-weight: 400;
+      letter-spacing: 1px;
+      margin: 19px 0 0 35px; }
+  .card-prize {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    margin: 18px 0 0 35px; }
+    .card-prize__old {
+      color: #2c303d;
+      text-decoration: line-through;
+      font-size: 2.25rem; }
+    .card-prize__new {
+      font-size: 2.25rem;
+      color: #ce2c52;
+      margin: 0 0 0 22px; }
+  .rating {
+    display: block;
+    margin: 13px 0 0 35px; }
+    .rating .ratized input[type="radio"]:checked + label:before {
+      position: absolute;
+      top: 0;
+      right: 2px; }
+    .rating .ratized {
+      position: relative; }
+    .rating .ratized input[type="radio"] {
+      position: fixed;
+      top: 0;
+      right: 100%; }
+    .rating .ratized label {
+      font-size: 1rem;
+      cursor: pointer; }
+    .rating .ratized input[type="radio"]:checked ~ input + label {
+      background: none;
+      color: #aaa; }
+    .rating .ratized input + label {
+      color: #ce2c52; }
+    .rating .socialBlock-mobile {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: flex;
+      -ms-flex-pack: justify;
+      -webkit-justify-content: space-between;
+      -webkit-box-pack: justify;
+              justify-content: space-between;
+      margin-top: 31px;
+      max-width: 220px; }
+      .rating .socialBlock-mobile__link {
+        width: 41px;
+        height: 41px;
+        -webkit-border-radius: 50%;
+                border-radius: 50%;
+        text-align: center;
+        line-height: 41px;
+        border: 2px solid #2c87ce;
+        cursor: pointer; }
+        .rating .socialBlock-mobile__link a {
+          width: 41px;
+          height: 41px;
+          -webkit-border-radius: 50%;
+                  border-radius: 50%;
+          text-align: center;
+          line-height: 35px;
+          color: #2c87ce;
+          font-size: 1.5rem; }
+    .rating__ul {
+      list-style: none;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: flex;
+      padding: 0;
+      margin: 0; }
+    .rating__text {
+      display: none; }
+    .rating .wrapper-pop-up {
+      display: none; }
+  .description {
+    max-width: 376px;
+    margin: 33px 35px 25px 35px; }
+    .description__details {
+      display: none; }
+    .description p {
+      color: #808080;
+      font-family: "Open Sans", sans-serif;
+      font-size: 0.875rem;
+      font-weight: 400;
+      line-height: 20px; }
+  .card-size {
+    display: none; }
+  .card-color {
+    display: none; }
+  .card-size-mobile {
+    margin-left: 35px; }
+    .card-size-mobile__title {
+      display: block;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      font-size: 1rem; }
+    .card-size-mobile__size {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      border: 1px solid #cccccc;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      text-align: center;
+      margin-right: 5px;
+      cursor: pointer;
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s; }
+      .card-size-mobile__size span {
+        line-height: 39px;
+        text-transform: uppercase;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        font-size: 0.8125rem; }
+      .card-size-mobile__size:hover {
+        -webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5);
+                box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5); }
+  .card-color-mobile {
+    margin: 25px 0 0 35px; }
+    .card-color-mobile__title {
+      display: block;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      font-size: 1rem; }
+    .card-color-mobile__color {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      border: 1px solid #cccccc;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      text-align: center;
+      margin-right: 5px;
+      cursor: pointer;
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s;
+      background-color: #77d8e7; }
+      .card-color-mobile__color_second {
+        background-color: #96c795; }
+      .card-color-mobile__color_third {
+        background-color: #ce92a1; }
+      .card-color-mobile__color_fourth {
+        background-color: #aa93cf; }
+      .card-color-mobile__color:hover {
+        -webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5);
+                box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5); }
+  .wrapper-add-to-card {
+    text-align: center;
+    margin-top: 35px; }
+    .wrapper-add-to-card .add-to-card-button {
+      width: 280px;
+      height: 57px;
+      background-color: #8ae6cf;
+      text-transform: uppercase;
+      border: none;
+      -webkit-border-radius: 30px;
+              border-radius: 30px;
+      margin: 21px 0 0 0;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      font-size: 1.125rem;
+      cursor: pointer;
+      outline: none;
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s; }
+      .wrapper-add-to-card .add-to-card-button:hover {
+        background-color: #3cc5a3; }
+  .cards .title-cards {
+    margin: 55px 5px 15px 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2c303d;
+    text-align: center; }
+  .cards .wrapper-cards {
+    display: none; }
+  .cards #gallery {
+    width: 260px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0 40px 0;
+    position: relative;
+    display: block; }
+    .cards #gallery .slider {
+      position: relative;
+      height: 300px; }
+      .cards #gallery .slider .card {
+        width: 48%;
+        height: 300px;
+        position: relative;
+        margin-bottom: 50px; }
+        .cards #gallery .slider .card__img {
+          width: 100%; }
+        .cards #gallery .slider .card .prize {
+          position: absolute;
+          bottom: 40px;
+          right: 0;
+          background-color: rgba(138, 230, 207, 0.6);
+          font-family: "Open Sans", sans-serif;
+          font-size: 1.125rem;
+          font-weight: 700;
+          width: 100%;
+          height: 30px;
+          text-align: center;
+          line-height: 30px; }
+          .cards #gallery .slider .card .prize__old {
+            display: none; }
+          .cards #gallery .slider .card .prize__new {
+            margin: 0 12px 0 0;
+            color: #ce2c52;
+            font-size: 1.375rem; }
+          .cards #gallery .slider .card .prize__default {
+            margin: 0 5px;
+            font-size: 1.375rem; }
+        .cards #gallery .slider .card__title {
+          position: absolute;
+          width: 100%;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 700;
+          font-size: 1rem;
+          text-transform: uppercase;
+          text-align: center;
+          margin-top: 10px; }
+    .cards #gallery .buttons {
+      position: absolute;
+      top: 90px;
+      left: -28px;
+      width: 315px;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: flex;
+      -ms-flex-pack: justify;
+      -webkit-justify-content: space-between;
+      -webkit-box-pack: justify;
+              justify-content: space-between; }
+      .cards #gallery .buttons .prev {
+        font-size: 4.0625rem;
+        cursor: pointer; }
+        .cards #gallery .buttons .prev i {
+          color: #949494; }
+      .cards #gallery .buttons .next {
+        font-size: 4.0625rem;
+        cursor: pointer; }
+        .cards #gallery .buttons .next i {
+          color: #949494; } }
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .wrapper-card {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 100px; }
+    .wrapper-card .title-card-mobile {
+      display: block;
+      font-family: "Oswald", sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 30px;
+      margin: 0 0 20px 10px;
+      width: 100%; }
+  .wrapper-img {
+    width: 48%;
+    margin: 0 0 0 10px;
+    position: relative; }
+    .wrapper-img__img {
+      width: 100%; }
+    .wrapper-img .socialBlock-tablet {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 15px; }
+      .wrapper-img .socialBlock-tablet__link {
+        width: 41px;
+        height: 41px;
+        -webkit-border-radius: 50%;
+                border-radius: 50%;
+        text-align: center;
+        line-height: 41px;
+        border: 2px solid #2c87ce;
+        cursor: pointer;
+        margin-top: 15px; }
+        .wrapper-img .socialBlock-tablet__link a {
+          width: 41px;
+          height: 41px;
+          -webkit-border-radius: 50%;
+                  border-radius: 50%;
+          text-align: center;
+          line-height: 35px;
+          font-size: 1.5rem;
+          color: #2c87ce; }
+  .wrapper-info {
+    width: 48%;
+    position: relative;
+    margin: 0 10px 0 0; }
+    .wrapper-info__titleCard {
+      display: none; }
+    .wrapper-info__itemNumber {
+      opacity: 0.7;
+      color: #2c303d;
+      font-family: "Open Sans", sans-serif;
+      font-size: 0.6875rem;
+      font-weight: 400;
+      margin: 0;
+      letter-spacing: 1px; }
+    .wrapper-info .card-prize {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      font-size: 2.25rem; }
+      .wrapper-info .card-prize__old {
+        color: #2c303d;
+        text-decoration: line-through; }
+      .wrapper-info .card-prize__new {
+        color: #ce2c52;
+        margin: 0 0 0 22px; }
+    .wrapper-info .rating {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: flex; }
+      .wrapper-info .rating .ratized input[type="radio"]:checked + label:before {
+        position: absolute;
+        top: 0;
+        right: 2px; }
+      .wrapper-info .rating .ratized {
+        position: relative; }
+      .wrapper-info .rating .ratized input[type="radio"] {
+        position: fixed;
+        top: 0;
+        right: 100%; }
+      .wrapper-info .rating .ratized label {
+        font-size: 1.3em;
+        cursor: pointer; }
+      .wrapper-info .rating .ratized input[type="radio"]:checked ~ input + label {
+        background: none;
+        color: #aaa; }
+      .wrapper-info .rating .ratized input + label {
+        color: #ce2c52; }
+      .wrapper-info .rating .socialBlock-mobile {
+        display: none; }
+      .wrapper-info .rating__ul {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0; }
+      .wrapper-info .rating__text {
+        display: none; }
+      .wrapper-info .rating .wrapper-pop-up {
+        display: none; }
+    .wrapper-info .description {
+      max-width: 284px;
+      margin: 10px 0 0 0; }
+      .wrapper-info .description__details {
+        display: block;
+        margin-bottom: 5px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 0.875rem;
+        font-weight: 700;
+        text-transform: uppercase; }
+      .wrapper-info .description p {
+        color: #808080;
+        font-family: "Open Sans", sans-serif;
+        font-size: 0.75rem;
+        font-weight: 300;
+        line-height: 16px; }
+    .wrapper-info .card-size-mobile,
+    .wrapper-info .card-color-mobile {
+      display: none; }
+    .wrapper-info .card-size {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: flex;
+      margin: 10px 0 0 0; }
+      .wrapper-info .card-size__text {
+        line-height: 40px;
+        color: #2c303d;
+        font-family: "Open Sans", sans-serif;
+        font-size: 0.875rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-right: 20px; }
+      .wrapper-info .card-size__size {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #cccccc;
+        -webkit-border-radius: 50%;
+                border-radius: 50%;
+        text-align: center;
+        margin: 0 0 0 15px;
+        cursor: pointer;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s; }
+        .wrapper-info .card-size__size span {
+          line-height: 39px;
+          text-transform: uppercase;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 700;
+          font-size: 0.8125rem; }
+        .wrapper-info .card-size__size:hover {
+          -webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5);
+                  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5); }
+    .wrapper-info .card-color {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: flex;
+      margin: 10px 0 0 0; }
+      .wrapper-info .card-color__text {
+        line-height: 40px;
+        color: #2c303d;
+        font-family: "Open Sans", sans-serif;
+        font-size: 0.875rem;
+        font-weight: 700;
+        text-transform: uppercase; }
+      .wrapper-info .card-color__color {
+        width: 43px;
+        height: 43px;
+        border: 1px solid #cccccc;
+        -webkit-border-radius: 50%;
+                border-radius: 50%;
+        text-align: center;
+        margin: 0 0 0 15px;
+        cursor: pointer;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s;
+        background-color: #77d8e7; }
+        .wrapper-info .card-color__color_second {
+          background-color: #96c795; }
+        .wrapper-info .card-color__color_third {
+          background-color: #ce92a1; }
+        .wrapper-info .card-color__color_fourth {
+          background-color: #aa93cf; }
+        .wrapper-info .card-color__color span {
+          line-height: 39px;
+          text-transform: uppercase;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 0.8125rem; }
+        .wrapper-info .card-color__color:hover {
+          -webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5);
+                  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5); }
+    .wrapper-info .wrapper-add-to-card .add-to-card-button {
+      width: 214px;
+      height: 44px;
+      background-color: #8ae6cf;
+      text-transform: uppercase;
+      border: none;
+      -webkit-border-radius: 20px;
+              border-radius: 20px;
+      margin: 21px 0 0 0;
+      font-family: "Open Sans", sans-serif;
+      font-size: 1.125rem;
+      font-weight: 700;
+      cursor: pointer;
+      outline: none;
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s; }
+      .wrapper-info .wrapper-add-to-card .add-to-card-button:hover {
+        background-color: #3cc5a3; }
+  .cards .title-cards {
+    margin: 55px 5px 15px 5px;
+    text-transform: uppercase;
+    color: #2c303d;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.375rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center; }
+  .cards .wrapper-cards {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    margin: 0 5px 100px 5px; }
+    .cards .wrapper-cards .card {
+      width: 48%;
+      position: relative;
+      margin-bottom: 50px; }
+      .cards .wrapper-cards .card__img {
+        width: 100%; }
+      .cards .wrapper-cards .card .prize {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(138, 230, 207, 0.6);
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        line-height: 30px; }
+        .cards .wrapper-cards .card .prize__old {
+          font-family: "Open Sans", sans-serif;
+          font-size: 1.375rem;
+          font-weight: 700;
+          display: none; }
+        .cards .wrapper-cards .card .prize__new {
+          margin: 0 12px 0 0;
+          color: #ce2c52;
+          font-family: "Open Sans", sans-serif;
+          font-size: 1.375rem;
+          font-weight: 700; }
+        .cards .wrapper-cards .card .prize__default {
+          margin: 0 5px;
+          font-family: "Open Sans", sans-serif;
+          font-size: 1.375rem;
+          font-weight: 700; }
+      .cards .wrapper-cards .card__title {
+        position: absolute;
+        width: 100%;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 10px; }
+  .cards #gallery {
+    display: none; } }
+
+@media only screen and (min-width: 1025px) {
+  .wrapper-card {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 100px; }
+    .wrapper-card .title-card-mobile {
+      display: none; }
+  .wrapper-img {
+    width: 100%;
+    max-width: 48%; }
+    .wrapper-img__img {
+      width: 100%; }
+    .wrapper-img .socialBlock-tablet {
+      display: none; }
+  .wrapper-info {
+    width: 48%;
+    position: relative; }
+    .wrapper-info__titleCard {
+      font-family: "Oswald", sans-serif;
+      font-size: 1.5625rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 20px; }
+    .wrapper-info__itemNumber {
+      opacity: 0.7;
+      color: #2c303d;
+      font-family: "Open Sans", sans-serif;
+      font-size: 0.625rem;
+      font-weight: 400;
+      margin: 17px 0 0 0;
+      letter-spacing: 1px; }
+  .card-prize {
+    margin: 13px 0 0 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700; }
+    .card-prize__old {
+      color: #2c303d;
+      text-decoration: line-through; }
+    .card-prize__new {
+      color: #ce2c52;
+      margin: 0 0 0 30px; }
+  .rating {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    margin: 17px 0 0 0;
+    line-height: 25px; }
+    .rating .socialBlock-mobile {
+      display: none; }
+    .rating .ratized input[type="radio"]:checked + label:before {
+      position: absolute;
+      top: 0;
+      right: 2px; }
+    .rating .ratized {
+      position: relative; }
+    .rating .ratized input[type="radio"] {
+      position: fixed;
+      top: 0;
+      right: 100%; }
+    .rating .ratized label {
+      font-size: 1.5em;
+      cursor: pointer; }
+    .rating .ratized input[type="radio"]:checked ~ input + label {
+      background: none;
+      color: #aaa; }
+    .rating .ratized input + label {
+      color: #ce2c52; }
+    .rating__text {
+      color: #2c87ce;
+      font-family: "Open Sans", sans-serif;
+      font-size: 1.125rem;
+      font-weight: 700;
+      cursor: pointer;
+      margin: 0 0 0 16px;
+      line-height: 30px; }
+    .rating .wrapper-pop-up {
+      width: 100%;
+      max-width: 287px;
+      padding: 20px 0;
+      -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+              box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+      position: absolute;
+      z-index: 1;
+      background: #ffffff;
+      display: block;
+      top: 35%;
+      left: 5px;
+      visibility: hidden; }
+      .rating .wrapper-pop-up:before, .rating .wrapper-pop-up:after {
+        content: '';
+        position: absolute;
+        left: 154px;
+        bottom: 81px;
+        border: 10px solid transparent;
+        border-bottom: 10px solid #a6a6a6; }
+      .rating .wrapper-pop-up:after {
+        border-bottom: 10px solid #ffffff;
+        bottom: 80px; }
+      .rating .wrapper-pop-up .shareWith {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: flex;
+        -ms-flex-pack: justify;
+        -webkit-justify-content: space-between;
+        -webkit-box-pack: justify;
+                justify-content: space-between;
+        margin: 10px 0 0 18px; }
+        .rating .wrapper-pop-up .shareWith__button {
+          font-size: 4.375rem;
+          font-weight: bold;
+          -webkit-transform: rotate(45deg);
+              -ms-transform: rotate(45deg);
+                  transform: rotate(45deg);
+          margin: 5px 0 0 0;
+          color: #2c87ce;
+          cursor: pointer; }
+      .rating .wrapper-pop-up .socialBlock {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: flex;
+        -ms-flex-pack: space-evenly;
+        -webkit-justify-content: space-evenly;
+        -webkit-box-pack: space-evenly;
+                justify-content: space-evenly; }
+        .rating .wrapper-pop-up .socialBlock__link {
+          width: 41px;
+          height: 41px;
+          -webkit-border-radius: 50%;
+                  border-radius: 50%;
+          text-align: center;
+          line-height: 41px;
+          border: 2px solid #2c87ce;
+          cursor: pointer; }
+          .rating .wrapper-pop-up .socialBlock__link a {
+            width: 41px;
+            height: 41px;
+            -webkit-border-radius: 50%;
+                    border-radius: 50%;
+            text-align: center;
+            line-height: 37px;
+            font-size: 1.4375rem;
+            color: #2c87ce; }
+    .rating .show {
+      visibility: visible;
+      -webkit-animation: fadeIn 1s;
+              animation: fadeIn 1s; }
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  @keyframes fadeIn {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  .description {
+    max-width: 376px;
+    margin: 20px 0 0 0; }
+    .description__details {
+      display: none; }
+    .description p {
+      color: #808080;
+      line-height: 16px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 0.75rem;
+      font-weight: 300; }
+  .card-size-mobile,
+  .card-color-mobile {
+    display: none; }
+  .card-size {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    margin: 23px 0 0 0; }
+    .card-size__text {
+      line-height: 40px;
+      color: #2c303d;
+      font-family: "Open Sans", sans-serif;
+      font-size: 0.875rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-right: 20px; }
+    .card-size__size {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #cccccc;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      text-align: center;
+      margin: 0 0 0 15px;
+      cursor: pointer;
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s; }
+      .card-size__size span {
+        line-height: 39px;
+        text-transform: uppercase;
+        font-family: "Open Sans", sans-serif;
+        font-size: 0.8125rem;
+        font-weight: 700; }
+      .card-size__size:hover {
+        -webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5);
+                box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5); }
+  .card-color {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    margin: 15px 0 0 0; }
+    .card-color__text {
+      line-height: 40px;
+      color: #2c303d;
+      font-family: "Open Sans", sans-serif;
+      font-size: 0.875rem;
+      font-weight: 700;
+      text-transform: uppercase; }
+    .card-color__color {
+      width: 43px;
+      height: 43px;
+      border: 1px solid #cccccc;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      text-align: center;
+      margin: 0 0 0 15px;
+      cursor: pointer;
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s;
+      background-color: #77d8e7; }
+      .card-color__color_second {
+        background-color: #96c795; }
+      .card-color__color_third {
+        background-color: #ce92a1; }
+      .card-color__color_fourth {
+        background-color: #aa93cf; }
+      .card-color__color:hover {
+        -webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5);
+                box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5); }
+  .wrapper-add-to-card .add-to-card-button {
+    padding: 13px 53px 13px 53px;
+    background-color: #8ae6cf;
+    text-transform: uppercase;
+    border: none;
+    -webkit-border-radius: 20px;
+            border-radius: 20px;
+    margin: 10px 0 0 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s; }
+    .wrapper-add-to-card .add-to-card-button:hover {
+      background-color: #3cc5a3; }
+  .cards .title-cards {
+    margin: 55px 5px 15px 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.375rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2c303d;
+    letter-spacing: 2px;
+    text-align: left; }
+  .cards .wrapper-cards {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    margin: 0 5px 100px 5px; }
+    .cards .wrapper-cards .card {
+      width: 100%;
+      max-width: 265px;
+      position: relative;
+      margin-bottom: 45px; }
+      .cards .wrapper-cards .card__img {
+        width: 100%; }
+      .cards .wrapper-cards .card .prize {
+        position: absolute;
+        bottom: 20px;
+        right: 0;
+        background-color: #8ae6cf;
+        font-family: "Open Sans", sans-serif; }
+        .cards .wrapper-cards .card .prize__old {
+          margin: 0 19px 0 5px;
+          color: #2c303d;
+          text-decoration: line-through;
+          font-size: 1rem;
+          font-weight: 700; }
+        .cards .wrapper-cards .card .prize__new {
+          margin: 0 12px 0 0;
+          color: #ce2c52;
+          font-size: 1rem;
+          font-weight: 700; }
+        .cards .wrapper-cards .card .prize__default {
+          margin: 0 5px;
+          font-size: 1rem;
+          font-weight: 700; }
+      .cards .wrapper-cards .card__title {
+        position: absolute;
+        width: 100%;
+        font-family: "Open Sans", sans-serif;
+        font-size: 0.875rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 1px;
+        margin-top: 10px; }
+      .cards .wrapper-cards .card:hover {
+        -webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5);
+                box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5); }
+  .cards #gallery {
+    display: none; } }
