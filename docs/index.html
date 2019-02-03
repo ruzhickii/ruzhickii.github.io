@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<link rel="stylesheet" href="css/main.css">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+	<link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$('.icon-menu').click(function (event) {
+                $('.sidebar').toggleClass('active');
+            });
+        });
+	</script>
+</head>
+<body>
+	<div class="container clearFix">
+		<aside class="sidebar">
+			<div class="sidebar__content">
+				<div class="logo">
+					<img src="app/img/logo.png" alt="logo">
+				</div>
+				<div class="icon-menu">
+					<span class="divide"></span>
+					<span class="divide"></span>
+					<span class="divide"></span>
+				</div>
+				<ul class="sidebar-header_nav">
+					<li class="sidebar-deader_list">
+						<a href="#">О нас</a>
+					</li>
+					<li class="sidebar-deader_list">
+						<a href="#">Блог</a>
+					</li>
+					<li class="sidebar-deader_list">
+						<a href="#">Кейтеринг</a>
+					</li>
+					<li class="sidebar-deader_list">
+						<a href="#">Доставка</a>
+					</li>
+				</ul>
+				<div class="list">
+					<ul>
+						<li>
+							<a href="#">Пицца</a>
+						</li>
+						<li>
+							<a href="#">Азиатское меню</a>
+						</li>
+						<li>
+							<a href="#">Закуски</a>
+						</li>
+						<li>
+							<a href="#">Супы</a>
+						</li>
+						<li>
+							<a href="#">Мясо</a>
+						</li>
+						<li>
+							<a href="#">Рыба</a>
+						</li>
+						<li>
+							<a href="#">Салаты</a>
+						</li>
+						<li>
+							<a href="#">Ризотто и Паста</a>
+						</li>
+						<li>
+							<a href="#">Десерты</a>
+						</li>
+						<li>
+							<a href="#">Гарнир</a>
+						</li>
+						<li>
+							<a href="#">Напитки</a>
+						</li>
+						<li>
+							<a href="#">Спецпредложения</a>
+						</li>
+					</ul>
+				</div>
+				<div class="buttonWrapper">
+					<a href="#"><button>вверх</button></a>
+				</div>
+			</div>
+		</aside>
+		<div class="main-block">
+			<header>
+				<div class="header_content">
+					<ul class="header_navigation">
+						<li class="header_navigation-link">
+							<a href="#">О нас</a>
+						</li>
+						<li class="header_navigation-link">
+							<a href="#">Блог</a>
+						</li>
+						<li class="header_navigation-link">
+							<a href="#">Кейтеринг</a>
+						</li>
+						<li class="header_navigation-link">
+							<a href="#">Доставка</a>
+						</li>
+					</ul>
+					<div class="icon-menu">
+						<span class="divide"></span>
+						<span class="divide"></span>
+						<span class="divide"></span>
+					</div>
+					<div class="header_items">
+						<div class="header_lang">
+							<span>Укр</span>
+						</div>
+						<div class="header_user">
+							<a href="#">
+								<img src="app/img/user.png" alt="user">
+							</a>
+						</div>
+						<a href="#">
+							<div class="header_basket">
+								<div class="basket_img">
+									<img src="app/img/basket.png" alt="basket">
+								</div>
+								<div class="basket_info">
+									<span>0 блюд</span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</header>
+			<div class="content">
+				<section class="section-breadcrumbs">
+					<div class="breadcrumbs_container">
+						<ul class="section-breadcrumb_list">
+							<li>
+								<a href="#">Главная</a>
+							</li>
+							<li>
+								<a href="#">Пицца</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="section-product-cards">
+					<div class="product-card-container">
+						<h1 class="main-heading">Пицца</h1>
+						<div class="product-card-wrapper">
+							<div class="product-card">
+								<img src="app/img/pizza1.png" alt="pizza">
+								<div class="product-card_info">
+									<h3 class="product-card_heading">Парма</h3>
+									<div class="product-card_param">
+										<img class="icon-transform" src="app/img/icon1.png" alt="icon">
+										<div class="product-card_param-info">
+											<span>30</span>
+											<span class="product-card_prize">см.</span>
+											<div class="product-card_mini-button"><i class="fa fa-angle-down"></i></div>
+										</div>
+									</div>
+									<div class="product-card_param">
+										<img class="icon-param" src="app/img/icon2.png" alt="icon">
+										<div class="product-card_param-info">
+											<span>95</span>
+											<span class="product-card_prize">грн.</span>
+										</div>
+									</div>
+									<div class="product-card_separate"></div>
+									<div class="product-card_composition">
+										<span>Состав</span>
+										<div class="product-card_mini-icon"><i class="fa fa-angle-down"></i></div>
+										<ul class="product-card_composition-list">
+											<li>Помид.соус <div class="menu_separator"></div></li>
+											<li>Моцарелла <div class="menu_separator"></div></li>
+											<li>Прошутто Крудо <div class="menu_separator"></div></li>
+											<li>Руккола <div class="menu_separator"></div></li>
+										</ul>
+									</div>
+									<div class="product-card_basket">
+										<span>В корзину</span>
+										<div class="product-card_mini-icon">+</div>
+									</div>
+								</div>
+							</div>
+							<div class="product-card">
+								<img src="app/img/pizza2.png" alt="pizza">
+								<div class="product-card_info">
+									<h3 class="product-card_heading">Порчини</h3>
+									<div class="product-card_param">
+										<img class="icon-transform" src="app/img/icon1.png" alt="icon">
+										<div class="product-card_param-info">
+											<span>30</span>
+											<span class="product-card_prize">см.</span>
+											<div class="product-card_mini-button"><i class="fa fa-angle-down"></i></div>
+										</div>
+									</div>
+									<div class="product-card_param">
+										<img class="icon-param" src="app/img/icon2.png" alt="icon">
+										<div class="product-card_param-info">
+											<span>105</span>
+											<span class="product-card_prize">грн.</span>
+										</div>
+									</div>
+									<div class="product-card_separate"></div>
+									<div class="product-card_composition">
+										<span>Состав</span>
+										<div class="product-card_mini-icon"><i class="fa fa-angle-down"></i></div>
+										<ul class="product-card_composition-list">
+											<li>Помид.соус <div class="menu_separator"></div></li>
+											<li>Моцарелла <div class="menu_separator"></div></li>
+											<li>Прошутто Крудо <div class="menu_separator"></div></li>
+											<li>Руккола <div class="menu_separator"></div></li>
+										</ul>
+									</div>
+									<div class="product-card_basket">
+										<span>В корзину</span>
+										<div class="product-card_mini-icon">+</div>
+									</div>
+								</div>
+							</div>
+							<div class="product-card">
+								<img src="app/img/pizza3.png" alt="pizza">
+								<div class="product-card_info">
+									<h3 class="product-card_heading">Пера и Дорблю</h3>
+									<div class="product-card_param">
+										<img class="icon-transform" src="app/img/icon1.png" alt="icon">
+										<div class="product-card_param-info">
+											<span>30</span>
+											<span class="product-card_prize">см.</span>
+											<div class="product-card_mini-button"><i class="fa fa-angle-down"></i></div>
+										</div>
+									</div>
+									<div class="product-card_param">
+										<img class="icon-param" src="app/img/icon2.png" alt="icon">
+										<div class="product-card_param-info">
+											<span>78</span>
+											<span class="product-card_prize">грн.</span>
+										</div>
+									</div>
+									<div class="product-card_separate"></div>
+									<div class="product-card_composition">
+										<span>Состав</span>
+										<div class="product-card_mini-icon"><i class="fa fa-angle-down"></i></div>
+										<ul class="product-card_composition-list">
+											<li>Помид.соус <div class="menu_separator"></div></li>
+											<li>Моцарелла <div class="menu_separator"></div></li>
+											<li>Прошутто Крудо <div class="menu_separator"></div></li>
+											<li>Руккола <div class="menu_separator"></div></li>
+										</ul>
+									</div>
+									<div class="product-card_basket">
+										<span>В корзину</span>
+										<div class="product-card_mini-icon">+</div>
+									</div>
+								</div>
+							</div>
+							<div class="product-card">
+								<img src="app/img/pizza4.png" alt="pizza">
+								<div class="product-card_info">
+									<h3 class="product-card_heading">Фрутти Де Маре</h3>
+									<div class="product-card_param">
+										<img class="icon-transform" src="app/img/icon1.png" alt="icon">
+										<div class="product-card_param-info">
+											<span>30</span>
+											<span class="product-card_prize">см.</span>
+											<div class="product-card_mini-button"><i class="fa fa-angle-down"></i></div>
+										</div>
+									</div>
+									<div class="product-card_param">
+										<img class="icon-param" src="app/img/icon2.png" alt="icon">
+										<div class="product-card_param-info">
+											<span>95</span>
+											<span class="product-card_prize">грн.</span>
+										</div>
+									</div>
+									<div class="product-card_separate"></div>
+									<div class="product-card_composition">
+										<span>Состав</span>
+										<div class="product-card_mini-icon"><i class="fa fa-angle-down"></i></div>
+										<ul class="product-card_composition-list">
+											<li>Помид.соус <div class="menu_separator"></div></li>
+											<li>Моцарелла <div class="menu_separator"></div></li>
+											<li>Прошутто Крудо <div class="menu_separator"></div></li>
+											<li>Руккола <div class="menu_separator"></div></li>
+										</ul>
+									</div>
+									<div class="product-card_basket">
+										<span>В корзину</span>
+										<div class="product-card_mini-icon">+</div>
+									</div>
+								</div>
+							</div>
+							<div class="product-card">
+								<img src="app/img/pizza5.png" alt="pizza">
+								<div class="product-card_info">
+									<h3 class="product-card_heading">Лимончелло</h3>
+									<div class="product-card_param">
+										<img class="icon-transform" src="app/img/icon1.png" alt="icon">
+										<div class="product-card_param-info">
+											<span>30</span>
+											<span class="product-card_prize">см.</span>
+											<div class="product-card_mini-button"><i class="fa fa-angle-down"></i></div>
+										</div>
+									</div>
+									<div class="product-card_param">
+										<img class="icon-param" src="app/img/icon2.png" alt="icon">
+										<div class="product-card_param-info">
+											<span>269</span>
+											<span class="product-card_prize">грн.</span>
+										</div>
+									</div>
+									<div class="product-card_separate"></div>
+									<div class="product-card_composition">
+										<span>Состав</span>
+										<div class="product-card_mini-icon"><i class="fa fa-angle-down"></i></div>
+										<ul class="product-card_composition-list">
+											<li>Помид.соус <div class="menu_separator"></div></li>
+											<li>Моцарелла <div class="menu_separator"></div></li>
+											<li>Прошутто Крудо <div class="menu_separator"></div></li>
+											<li>Руккола <div class="menu_separator"></div></li>
+										</ul>
+									</div>
+									<div class="product-card_basket">
+										<span>В корзину</span>
+										<div class="product-card_mini-icon">+</div>
+									</div>
+								</div>
+							</div>
+							<div class="product-card">
+								<img src="app/img/pizza6.png" alt="pizza">
+								<div class="product-card_info">
+									<h3 class="product-card_heading">Четыре Сыра</h3>
+									<div class="product-card_param">
+										<img class="icon-transform" src="app/img/icon1.png" alt="icon">
+										<div class="product-card_param-info">
+											<span>30</span>
+											<span class="product-card_prize">см.</span>
+											<div class="product-card_mini-button"><i class="fa fa-angle-down"></i></div>
+										</div>
+									</div>
+									<div class="product-card_param">
+										<img class="icon-param" src="app/img/icon2.png" alt="icon">
+										<div class="product-card_param-info">
+											<span>79</span>
+											<span class="product-card_prize">грн.</span>
+										</div>
+									</div>
+									<div class="product-card_separate"></div>
+									<div class="product-card_composition">
+										<span>Состав</span>
+										<div class="product-card_mini-icon"><i class="fa fa-angle-down"></i></div>
+										<ul class="product-card_composition-list">
+											<li>Помид.соус <div class="menu_separator"></div></li>
+											<li>Моцарелла <div class="menu_separator"></div></li>
+											<li>Прошутто Крудо <div class="menu_separator"></div></li>
+											<li>Руккола <div class="menu_separator"></div></li>
+										</ul>
+									</div>
+									<div class="product-card_basket">
+										<span>В корзину</span>
+										<div class="product-card_mini-icon">+</div>
+									</div>
+								</div>
+							</div>
+							<div class="product-card">
+								<img src="app/img/pizza7.png" alt="pizza">
+								<div class="product-card_info">
+									<h3 class="product-card_heading">Вегетарианская</h3>
+									<div class="product-card_param">
+										<img class="icon-transform" src="app/img/icon1.png" alt="icon">
+										<div class="product-card_param-info">
+											<span>30</span>
+											<span class="product-card_prize">см.</span>
+											<div class="product-card_mini-button"><i class="fa fa-angle-down"></i></div>
+										</div>
+									</div>
+									<div class="product-card_param">
+										<img class="icon-param" src="app/img/icon2.png" alt="icon">
+										<div class="product-card_param-info">
+											<span>65</span>
+											<span class="product-card_prize">грн.</span>
+										</div>
+									</div>
+									<div class="product-card_separate"></div>
+									<div class="product-card_composition">
+										<span>Состав</span>
+										<div class="product-card_mini-icon"><i class="fa fa-angle-down"></i></div>
+										<ul class="product-card_composition-list">
+											<li>Помид.соус <div class="menu_separator"></div></li>
+											<li>Моцарелла <div class="menu_separator"></div></li>
+											<li>Прошутто Крудо <div class="menu_separator"></div></li>
+											<li>Руккола <div class="menu_separator"></div></li>
+										</ul>
+									</div>
+									<div class="product-card_basket">
+										<span>В корзину</span>
+										<div class="product-card_mini-icon">+</div>
+									</div>
+								</div>
+							</div>
+							<div class="product-card">
+								<img src="app/img/pizza8.png" alt="pizza">
+								<div class="product-card_info">
+									<h3 class="product-card_heading">Примаверо</h3>
+									<div class="product-card_param">
+										<img class="icon-transform" src="app/img/icon1.png" alt="icon">
+										<div class="product-card_param-info">
+											<span>30</span>
+											<span class="product-card_prize">см.</span>
+											<div class="product-card_mini-button"><i class="fa fa-angle-down"></i></div>
+										</div>
+									</div>
+									<div class="product-card_param">
+										<img class="icon-param" src="app/img/icon2.png" alt="icon">
+										<div class="product-card_param-info">
+											<span>129</span>
+											<span class="product-card_prize">грн.</span>
+										</div>
+									</div>
+									<div class="product-card_separate"></div>
+									<div class="product-card_composition">
+										<span>Состав</span>
+										<div class="product-card_mini-icon"><i class="fa fa-angle-down"></i></div>
+										<ul class="product-card_composition-list">
+											<li>Помид.соус <div class="menu_separator"></div></li>
+											<li>Моцарелла <div class="menu_separator"></div></li>
+											<li>Прошутто Крудо <div class="menu_separator"></div></li>
+											<li>Руккола <div class="menu_separator"></div></li>
+										</ul>
+									</div>
+									<div class="product-card_basket">
+										<span>В корзину</span>
+										<div class="product-card_mini-icon">+</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="separator"><img src="app/img/separator.png" alt="separator"></div>
+					</div>
+				</section>
+
+			</div>
+			<footer>
+				<div class="footer_container">
+					<div class="footer_grid-wrapper">
+						<div class="grid_block">
+							<div class="footer_info">
+								<h3>график работы</h3>
+								<span>
+									с 11 до 22:00
+									<br>
+									Без выходных
+								</span>
+							</div>
+						</div>
+						<div class="grid_block">
+							<div class="footer_info">
+								<h3>наш адрес</h3>
+								<span>
+									ул.Греческая, 21
+								</span>
+							</div>
+						</div>
+						<div class="grid_block">
+							<div class="footer_info">
+								<h3>контакты</h3>
+								<a class="contacts_margin" href="#">тел: 098-000-00-00</a>
+								<a href="#">e-mail: mail@gmail.com</a>
+							</div>
+						</div>
+						<div class="grid_block">
+							<div class="footer_info">
+								<h3>соцсети</h3>
+								<div class="footer_social-links">
+									<a href="#">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+									<a href="#">
+										<i class="fab fa-instagram"></i>
+									</a>
+									<a href="#">
+										<i class="fab fa-tripadvisor"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer_copyright">
+					<div class="footer_container">
+						<span>limoncello 2017</span>
+						<a href="#"><span>сайт создан nextpage</span></a>
+						<span>все права защищены</span>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>
