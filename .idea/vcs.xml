@@ -2,6 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docs/Cube-Example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docs/cube" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/docs/limoncello" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/docs/limoncello.io" vcs="Git" />
   </component>
