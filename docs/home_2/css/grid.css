@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 12px;
+}
+.row {
+    /*margin-left: -12px;*/
+    /*margin-right: -12px;*/
+}
+.row::after {
+    content: '';
+    display: table;
+    clear:both;
+}
+.col{
+    float: left;
+}
+
+.col-1 {width: 8.333333333333333%;}
+.col-2 {width: 16.66666666666667%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33333333333333%;}
+.col-5 {width: 41.66666666666667%;}
+.col-6 {width: 50%;}
+.col-8 {width: 66.66666666666667%;}
+.col-9 {width: 75%;}
+.col-12 {width: 100%;}
+
+
