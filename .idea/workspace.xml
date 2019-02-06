@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89e5a35a-1e00-4767-bb33-5459953fad54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/cubeExamle/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/cubeExamle/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/cube" beforeDir="false" />
-    </list>
+    <list default="true" id="89e5a35a-1e00-4767-bb33-5459953fad54" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -111,12 +107,12 @@
       <workItem from="1549224386193" duration="1827000" />
       <workItem from="1549229828037" duration="384000" />
       <workItem from="1549236048512" duration="664000" />
-      <workItem from="1549236729983" duration="246000" />
+      <workItem from="1549236729983" duration="443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3121000" />
+    <option name="totallyTimeSpent" value="3318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -136,7 +132,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.7445783" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.43855423" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
