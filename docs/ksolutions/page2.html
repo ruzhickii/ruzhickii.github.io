@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
-    <title>K-solutions</title>
+    <title>Page 2</title>
 </head>
 <body>
 <script src="js/common.js"></script>
+
 <div id="preloader" class="preloader">
     <div class="preloader__loader">
         <img src="./images/logo_white_animated.svg" alt="logo">
@@ -52,41 +53,13 @@
             </div>
         </article>
     </section>
-    <section class="container">
-        <div class="payment">
-            <h2 class="payment__header">Метод оплаты</h2>
-            <div class="payment__block">
-                <a class="payment__link" href="page2.html">
-                    <div class="payment__method">
-                        <img class="payment__img" src="images/bitcoin.png" alt="bitcoin">
-                        <span class="payment__title">Bitcoin</span>
-                    </div>
-                </a>
-                <a class="payment__link" href="page2.html">
-                    <div class="payment__method">
-                        <img class="payment__img" src="images/visa_mc.png" alt="masterCard">
-                        <span class="payment__title">Visa/Mastercard</span>
-                    </div>
-                </a>
-                <a class="payment__link" href="page2.html">
-                    <div class="payment__method">
-                        <img class="payment__img" src="images/mts.png" alt="mts">
-                        <span class="payment__title">MTS</span>
-                    </div>
-                </a>
-                <a class="payment__link" href="page2.html">
-                    <div class="payment__method">
-                        <img class="payment__img" src="images/webmoney.png" alt="webmoney">
-                        <span class="payment__title">Webmoney</span>
-                    </div>
-                </a>
-                <a class="payment__link" href="page2.html">
-                    <div class="payment__method">
-                        <img class="payment__img" src="images/payeer.png" alt="payeer">
-                        <span class="payment__title">Payeer</span>
-                    </div>
-                </a>
-            </div>
+    <section>
+        <div class="payment-form">
+            <img src="images/bitcoin.png" alt="bitcoin">
+            <form method="POST" action="https://test-telega.piastrix24.com/api/get_data" accept-charset="UTF-8">
+                <input class="payment-form__email" placeholder="enter email" type="email" name="email" required />
+                <input class="payment-form__submit" type="submit"/>
+            </form>
         </div>
     </section>
 </main>

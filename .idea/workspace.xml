@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e5a35a-1e00-4767-bb33-5459953fad54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/ksolutions/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ksolutions/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ksolutions/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/ksolutions/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="1815">
+              <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -129,15 +130,17 @@
       <workItem from="1549236048512" duration="664000" />
       <workItem from="1549236729983" duration="443000" />
       <workItem from="1552582805829" duration="1784000" />
-      <workItem from="1552665714381" duration="216000" />
+      <workItem from="1552665714381" duration="395000" />
+      <workItem from="1552666263875" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5347000" />
+    <option name="totallyTimeSpent" value="5532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -193,8 +196,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/ksolutions/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="1815">
+          <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
         </state>
       </provider>
     </entry>
