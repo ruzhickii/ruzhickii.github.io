@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e5a35a-1e00-4767-bb33-5459953fad54" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/beetroot_10/node_modules/balanced-match/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/beetroot_10/node_modules/balanced-match/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/search/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,28 +24,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="html" value="2" />
+          <entry key="html" value="4" />
           <entry key="js" value="1" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="2" />
+          <entry key="HTML" value="4" />
           <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="13" />
+          <entry key="html" value="15" />
           <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="13" />
+          <entry key="HTML" value="15" />
           <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
@@ -56,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/search/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+            <state relative-caret-position="190">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -75,7 +75,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/astound/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/beetroot_10/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/home_1/index.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -125,8 +135,8 @@
         <option value="$PROJECT_DIR$/docs/search-movie-the-movie-db/styles.css" />
         <option value="$PROJECT_DIR$/docs/search-movie-the-movie-db/index.html" />
         <option value="$PROJECT_DIR$/docs/search-movie-the-movie-db/scripts.js" />
-        <option value="$PROJECT_DIR$/docs/search/index.html" />
         <option value="$PROJECT_DIR$/docs/beetroot_10/node_modules/balanced-match/README.md" />
+        <option value="$PROJECT_DIR$/docs/search/index.html" />
       </list>
     </option>
   </component>
@@ -1824,6 +1834,12 @@
               <item name="ruzhickii.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ruzhickii.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="astound" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruzhickii.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruzhickii.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="beetroot_10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1840,6 +1856,12 @@
               <item name="beetroot_10" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
               <item name="balanced-match" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruzhickii.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruzhickii.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="home_1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ruzhickii.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -1901,18 +1923,18 @@
       <workItem from="1552582805829" duration="1784000" />
       <workItem from="1552665714381" duration="395000" />
       <workItem from="1552666263875" duration="479000" />
-      <workItem from="1561301237693" duration="2511000" />
+      <workItem from="1561301237693" duration="3179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8487000" />
+    <option name="totallyTimeSpent" value="9155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24920802" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24920802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -1974,13 +1996,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/astound/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/beetroot_10/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/home_1/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/search/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        <state relative-caret-position="190">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
