@@ -1,0 +1,99 @@
+
+body {
+    background: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg") repeat-y #fc0 local center ;
+}
+
+img {
+    max-width: 100%;
+}
+
+.nav {
+    font-weight: 900;
+}
+
+.jumb {
+    border-radius: 100px 5px 85px 5px;
+}
+
+.img_poster {
+    height: 360px;
+    border-radius: 10px;
+}
+
+.item {
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+.spinner {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border: 10px dashed;
+    border-radius: 50%;
+    border-top-color: #aaa;
+    border-right-color: #555;
+    border-bottom-color: #aaa;
+    border-left-color: transparent;
+    animation: spin 500ms infinite linear;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.movies-wrapper {
+    background-color: #e9ecef;
+    border-radius: 35px;
+}
+
+.movies-wrapper-links {
+    background: cadetblue;
+    max-width: 240px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+.movies-links {
+    color: #b8c3c3;
+    cursor: pointer;
+}
+
+.movies-links:hover {
+    text-decoration: none;
+    color: gold;
+}
+
+.rating {
+    background: cadetblue;
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.made-by {
+    max-width: 350px;
+    margin: 20px auto;
+    color: #fff;
+}
+
+.made-by-author {
+    font-size: 32px;
+    color: lime;
+}
+
+.made-by-author:hover {
+    text-decoration: none;
+}
+
+.description {
+    font-weight: 700;
+}
+
+.description-values {
+    color: #004cff;
+}
