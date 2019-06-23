@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e5a35a-1e00-4767-bb33-5459953fad54" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/some/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/search/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/search/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/search/scripts/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/search/scripts/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/search/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/search/styles/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,7 +56,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/search/index.html">
+        <entry file="file://$PROJECT_DIR$/search/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
               <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
@@ -79,7 +80,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/search/scripts/scripts.js">
+        <entry file="file://$PROJECT_DIR$/search/scripts/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="897">
               <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
@@ -88,7 +89,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/search/styles/styles.css">
+        <entry file="file://$PROJECT_DIR$/search/styles/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="897">
               <caret line="98" column="1" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
@@ -127,6 +128,7 @@
         <option value="$PROJECT_DIR$/docs/beetroot_10/node_modules/balanced-match/README.md" />
         <option value="$PROJECT_DIR$/docs/search/index.html" />
         <option value="$PROJECT_DIR$/docs/some/index.html" />
+        <option value="$PROJECT_DIR$/search/index.html" />
       </list>
     </option>
   </component>
@@ -1815,11 +1817,6 @@
               <item name="ruzhickii.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ruzhickii.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ruzhickii.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ruzhickii.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -1840,6 +1837,7 @@
       <recent name="$PROJECT_DIR$/docs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ruzhickii\WebstormProjects\ruzhickii.github.io" />
       <recent name="C:\Users\ruzhickii\WebstormProjects\ruzhickii.github.io\docs\search\styles" />
       <recent name="C:\Users\ruzhickii\WebstormProjects\ruzhickii.github.io\docs\search\scripts" />
       <recent name="$PROJECT_DIR$/docs" />
@@ -1874,12 +1872,12 @@
       <workItem from="1552582805829" duration="1784000" />
       <workItem from="1552665714381" duration="395000" />
       <workItem from="1552666263875" duration="479000" />
-      <workItem from="1561301237693" duration="5335000" />
+      <workItem from="1561301237693" duration="6295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11311000" />
+    <option name="totallyTimeSpent" value="12271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -1932,14 +1930,14 @@
     <entry file="file://$PROJECT_DIR$/docs/ksolutions/page2.html" />
     <entry file="file://$PROJECT_DIR$/docs/ksolutions/css/style.min.css" />
     <entry file="file://$PROJECT_DIR$/docs/ksolutions/js/common.js" />
-    <entry file="file://$PROJECT_DIR$/docs/search/scripts/scripts.js">
+    <entry file="file://$PROJECT_DIR$/search/scripts/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="897">
           <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/search/styles/styles.css">
+    <entry file="file://$PROJECT_DIR$/search/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="897">
           <caret line="98" column="1" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
@@ -1972,7 +1970,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/search/index.html">
+    <entry file="file://$PROJECT_DIR$/search/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
